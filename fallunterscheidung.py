@@ -100,5 +100,5 @@ def export_data(ID_species=None, ID_place=None, ID_observer=None, ID_grid=None, 
 
         # write multiple rows 
         writer.writerows(rows)
-        
+         
     print('CSV file successfully created!')
